@@ -1,1 +1,73 @@
 /* Your styles here */
+body {
+    font-family: "Roboto", sans-serif;
+    width: auto;
+}
+
+
+#h-container {
+    text-align: center;
+    background-color: black;
+    width: auto;
+}
+
+#logo {
+    width: 40%;
+    align-content: center;
+}
+#container1 {
+    margin: 10px auto;
+    height: 100%;
+    width: auto;
+    background-image: url(../img/banner.jpg);
+}
+#container1 h1 {
+    font-size: xx-large;
+    text-align: center;
+    color: aqua;
+}
+#container1 p{
+    text-align: center;
+}
+#container2 {
+    text-align: center;
+}
+#btn-partiamo a {
+    width: 50%;
+    justify-content: center;
+    background-color: orangered;
+    border-radius: 5px;
+    text-decoration: none;
+    box-shadow: 2px 2px 2px 2px black;
+}
+#btn-partiamo:focus-visible {
+    box-shadow: 4px 4px 4px 4px grey;
+}
+#nb-pic {
+    border-radius: 50%;
+}
+#d-orange {
+    background-color: orangered;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.titolo {
+    text-align: center;
+    font-size: x-large;
+    color: blue;
+}
+.paragrafo {
+    text-align: center;
+}
+#foot {
+    height: 150px;
+    background-color: aqua;
+}
+.contain {
+    justify-content: center;
+}
+.pic {
+    align-content: center;
+    box-sizing: content-box;
+}
