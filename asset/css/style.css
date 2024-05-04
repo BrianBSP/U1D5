@@ -1,73 +1,129 @@
 /* Your styles here */
-body {
-    font-family: "Roboto", sans-serif;
-    width: auto;
-}
-
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 #h-container {
-    text-align: center;
+    width: 350px;
+    height: 100px;
+    margin: 0px auto;
     background-color: black;
-    width: auto;
 }
-
+h1,h2,h3,h4,a {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+}
+p {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    line-height: 35px;
+}
 #logo {
-    width: 40%;
-    align-content: center;
+    width: 150px;
+    margin: 25px 100px;
 }
 #container1 {
-    margin: 10px auto;
-    height: 100%;
-    width: auto;
+    width: 350px;
+    height: 350px;
+    margin: 0px auto;
+    text-align: center;
     background-image: url(../img/banner.jpg);
+    background-size: cover;
 }
 #container1 h1 {
-    font-size: xx-large;
-    text-align: center;
-    color: aqua;
+    padding: 25px;
+    font-size: 35px;
+    color: #25a2c3;
 }
-#container1 p{
-    text-align: center;
+#btn-partiamo {
+    margin: 20px 90px;
+    padding: 15px;
+    background-color: #f04c2f;
+    border-radius: 5px;
+}
+#btn-partiamo:hover {
+    box-shadow: 4px 4px 4px 4px lightgray;
+}
+#btn-partiamo>a{
+    text-decoration: none;
+    color:white;
+    text-transform: none;
 }
 #container2 {
+    width: 350px;
+    height: 800px;
+    margin: 0px auto;
     text-align: center;
+    padding-top: 50px
 }
-#btn-partiamo a {
-    width: 50%;
-    justify-content: center;
-    background-color: orangered;
-    border-radius: 5px;
-    text-decoration: none;
-    box-shadow: 2px 2px 2px 2px black;
-}
-#btn-partiamo:focus-visible {
-    box-shadow: 4px 4px 4px 4px grey;
+.titolo {
+    color:#25a2c3;
+    padding: 10px 0px;
 }
 #nb-pic {
+    width: 300px;
     border-radius: 50%;
 }
 #d-orange {
-    background-color: orangered;
-    margin-bottom: 30px;
-    margin-left: auto;
-    margin-right: auto;
-}
-.titolo {
+    width: 350px;
+    height: 250px;
+    margin: 0px auto;
     text-align: center;
-    font-size: x-large;
-    color: blue;
+    background-color: #f04c2f;
+    padding-top: 25px;
 }
-.paragrafo {
-    text-align: center;
+.o-titolo {
+    color: white;
+    font-size: xx-large;
+    padding: 20px 0px;
 }
-#foot {
-    height: 150px;
-    background-color: aqua;
+.o-paragrafo {
+    color:white;
+    padding: 10px 0px;
+    line-height: 20px;
+}
+#o-par {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: italic;
 }
 .contain {
-    justify-content: center;
+    width: 300px;
+    height: 350px;
+    margin: 20px auto;
+    border: 1px solid #dee1e3;
+    border-radius: 5px;
 }
 .pic {
-    align-content: center;
-    box-sizing: content-box;
+    width: 300px;
+}
+#foot {
+    width: 350px;
+    height: 350px;
+    margin: 0px auto;
+    text-align: center;
+    background-color: #25a2c3;
+}
+.f-titolo {
+    font-size: x-large;
+    padding: 35px 0px;
+    color: white;
+}
+.f-paragrafo {
+    color:white;
+}
+.f-paragrafo>a {
+    color: white; 
+    text-transform: none;
+}
+.ionicons {
+    color: white;
+}
+#foot hr {
+    width: 150px;
+    text-align: center;
+    color: white;
 }

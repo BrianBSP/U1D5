@@ -7,23 +7,29 @@
       name="description"
       content="Da zero a Epicode con i corsi completi per diventare uno sviluppatore professionista"
     />
-    <title>Layout Mobile</title>
+    <title>Corso Web Developer - Epicode school</title>
     <link rel="stylesheet" href="./asset/css/reset.css" />
     <link rel="stylesheet" href="./asset/css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
       rel="stylesheet"
     />
   </head>
   <body>
-    <header id="h-container">
+    <div id="h-container">
       <img src="./asset/img/logo.png" alt="epicode-logo" id="logo" />
-    </header>
+    </div>
     <main>
       <div id="container1">
-        <h1>Corso Web Developer</h1>
+        <h1><b>Corso Web Developer</b></h1>
 
         <p>
           Smetti di inseguire i titoli, inizia<br />
@@ -33,7 +39,7 @@
         </p>
 
         <div id="btn-partiamo">
-          <a href="#">PARTIAMO!</a>
+          <a href="#"><strong>PARTIAMO!</strong></a>
         </div>
       </div>
       <div id="container2">
@@ -43,25 +49,27 @@
           developer scoperte, scegli quella che <br />ti stimola di più.
         </p>
         <h3 class="titolo">Lavora dove vuoi</h3>
-        <p class="paragrafo">Lavora da casa, in riva al mare o in montagna.</p>
+        <p class="paragrafo">
+          Lavora da casa, in riva al mare o in <br />montagna.
+        </p>
         <img src="./asset/img/notebook.jpg" alt="notebook-pic" id="nb-pic" />
         <h3 class="titolo">Scegli il tuo ruolo</h3>
         <p class="paragrafo">
-          Potrai scegliere se essere Azienda, Freelance o Startup.
+          Potrai scegliere se essere Azienda, <br />Freelance o Startup.
         </p>
         <h3 class="titolo">Lavoro in libertà</h3>
         <p class="paragrafo">
-          Non serve lavorare in ufficio per essere creatori di prodotti
+          Non serve lavorare in ufficio per <br />essere creatori di prodotti
           digitali.
         </p>
       </div>
       <div id="d-orange">
-        <h3 class="titolo">Epicode garantisce</h3>
-        <p class="paragrafo">
+        <h3 class="o-titolo">Epicode garantisce</h3>
+        <p class="o-paragrafo" id="o-par">
           "3 mesi intensivi di corso che cambieranno radicalmente la tua vita"
         </p>
-        <p class="paragrafo">Mario Rossi</p>
-        <p class="paragrafo">CEO, Epicode</p>
+        <p class="o-paragrafo">Mario Rossi</p>
+        <p class="o-paragrafo">CEO, Epicode</p>
       </div>
       <div id="pic1" class="contain">
         <img src="./asset/img/foto1.jpg" alt="pc-pic" class="pic" />
@@ -87,18 +95,24 @@
       </div>
     </main>
     <footer id="foot">
-      <h3 class="titolo">Contattaci</h3>
-      <p class="paragrafo">
-        <ion-icon name="call"></ion-icon>
-        <a href="#">Contattaci +39 0123456789</a>
+      <h3 class="f-titolo">Contattaci</h3>
+      <p class="f-paragrafo">
+        <a href="#"
+          ><ion-icon name="call" class="ionicons"></ion-icon>+39 0123456789</a
+        >
       </p>
-      <p class="paragrafo">
-        <ion-icon name="mail"></ion-icon>
+      <p class="f-paragrafo">
+        <ion-icon name="mail" class="ionicons"></ion-icon>
         <a href="#">info@epicode.it</a>
       </p>
-      <p class="paragrafo">
-        <ion-icon name="map"></ion-icon>
+      <p class="f-paragrafo">
+        <ion-icon name="map" class="ionicons"></ion-icon>
         <a href="#">Via Appia 1 - 00100 Roma (RM)</a>
+      </p>
+
+      <p class="f-paragrafo">
+        ___________________<br />
+        &copy; 2021. Immagini di <a href="#">Pixabay</a>
       </p>
     </footer>
     <script
