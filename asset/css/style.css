@@ -61,6 +61,7 @@ p {
 .titolo {
     color:#25a2c3;
     padding: 10px 0px;
+    text-align: center;
 }
 #nb-pic {
     width: 300px;
